@@ -8,20 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		1516F3701E255EC700C1BC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F36F1E255EC700C1BC16 /* AppDelegate.swift */; };
-		1516F3721E255EC700C1BC16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3711E255EC700C1BC16 /* ViewController.swift */; };
 		1516F3751E255EC700C1BC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1516F3731E255EC700C1BC16 /* Main.storyboard */; };
 		1516F3771E255EC700C1BC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1516F3761E255EC700C1BC16 /* Assets.xcassets */; };
 		1516F37A1E255EC700C1BC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1516F3781E255EC700C1BC16 /* LaunchScreen.storyboard */; };
+		1516F3821E25639500C1BC16 /* VerizonIamgeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3811E25639500C1BC16 /* VerizonIamgeListViewController.swift */; };
+		1516F3841E2563C100C1BC16 /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3831E2563C100C1BC16 /* DetailImageViewController.swift */; };
+		1516F3891E25701600C1BC16 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3881E25701600C1BC16 /* CustomCell.swift */; };
+		1516F38E1E25836E00C1BC16 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1516F38B1E257C5800C1BC16 /* WebImage.framework */; };
+		1516F38F1E25836E00C1BC16 /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1516F38B1E257C5800C1BC16 /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1516F3A31E25998700C1BC16 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1516F3921E25995200C1BC16 /* SwiftyJSON.framework */; };
+		1516F3A41E25998700C1BC16 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1516F3921E25995200C1BC16 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1516F3A81E259E0800C1BC16 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1516F3A71E259E0800C1BC16 /* Data.json */; };
+		1516F3D51E2FDCB700C1BC16 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3D41E2FDCB700C1BC16 /* CustomSearchBar.swift */; };
+		1516F3D71E2FDF1E00C1BC16 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516F3D61E2FDF1E00C1BC16 /* CustomSearchController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1516F3901E25836E00C1BC16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1516F38F1E25836E00C1BC16 /* WebImage.framework in Embed Frameworks */,
+				1516F3A41E25998700C1BC16 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1516F36C1E255EC700C1BC16 /* VerizonImageDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerizonImageDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1516F36F1E255EC700C1BC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1516F3711E255EC700C1BC16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1516F3741E255EC700C1BC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1516F3761E255EC700C1BC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1516F3791E255EC700C1BC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1516F37B1E255EC700C1BC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1516F3811E25639500C1BC16 /* VerizonIamgeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerizonIamgeListViewController.swift; sourceTree = "<group>"; };
+		1516F3831E2563C100C1BC16 /* DetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageViewController.swift; sourceTree = "<group>"; };
+		1516F3881E25701600C1BC16 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = VerizonImageDownLoader/CustomCell.swift; sourceTree = "<group>"; };
+		1516F38B1E257C5800C1BC16 /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = VerizonImageDownLoader/Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		1516F3921E25995200C1BC16 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = VerizonImageDownLoader/Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		1516F3A71E259E0800C1BC16 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		1516F3D41E2FDCB700C1BC16 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		1516F3D61E2FDF1E00C1BC16 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1516F38E1E25836E00C1BC16 /* WebImage.framework in Frameworks */,
+				1516F3A31E25998700C1BC16 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,7 @@
 			children = (
 				1516F36E1E255EC700C1BC16 /* VerizonImageDownLoader */,
 				1516F36D1E255EC700C1BC16 /* Products */,
+				1516F38A1E257C5800C1BC16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,53 @@
 		1516F36E1E255EC700C1BC16 /* VerizonImageDownLoader */ = {
 			isa = PBXGroup;
 			children = (
+				1516F3AB1E2638FA00C1BC16 /* ViewControllers */,
+				1516F3AA1E26386400C1BC16 /* Resource */,
+				1516F3A91E26384600C1BC16 /* View */,
 				1516F36F1E255EC700C1BC16 /* AppDelegate.swift */,
-				1516F3711E255EC700C1BC16 /* ViewController.swift */,
-				1516F3731E255EC700C1BC16 /* Main.storyboard */,
-				1516F3761E255EC700C1BC16 /* Assets.xcassets */,
-				1516F3781E255EC700C1BC16 /* LaunchScreen.storyboard */,
-				1516F37B1E255EC700C1BC16 /* Info.plist */,
 			);
 			path = VerizonImageDownLoader;
+			sourceTree = "<group>";
+		};
+		1516F38A1E257C5800C1BC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1516F3921E25995200C1BC16 /* SwiftyJSON.framework */,
+				1516F38B1E257C5800C1BC16 /* WebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1516F3A91E26384600C1BC16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1516F3781E255EC700C1BC16 /* LaunchScreen.storyboard */,
+				1516F3731E255EC700C1BC16 /* Main.storyboard */,
+				1516F3881E25701600C1BC16 /* CustomCell.swift */,
+				1516F3D41E2FDCB700C1BC16 /* CustomSearchBar.swift */,
+				1516F3D61E2FDF1E00C1BC16 /* CustomSearchController.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1516F3AA1E26386400C1BC16 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1516F3A71E259E0800C1BC16 /* Data.json */,
+				1516F3761E255EC700C1BC16 /* Assets.xcassets */,
+				1516F37B1E255EC700C1BC16 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		1516F3AB1E2638FA00C1BC16 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1516F3831E2563C100C1BC16 /* DetailImageViewController.swift */,
+				1516F3811E25639500C1BC16 /* VerizonIamgeListViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +147,7 @@
 				1516F3681E255EC700C1BC16 /* Sources */,
 				1516F3691E255EC700C1BC16 /* Frameworks */,
 				1516F36A1E255EC700C1BC16 /* Resources */,
+				1516F3901E25836E00C1BC16 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +170,8 @@
 				TargetAttributes = {
 					1516F36B1E255EC700C1BC16 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q9U6H978FU;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +202,7 @@
 				1516F37A1E255EC700C1BC16 /* LaunchScreen.storyboard in Resources */,
 				1516F3771E255EC700C1BC16 /* Assets.xcassets in Resources */,
 				1516F3751E255EC700C1BC16 /* Main.storyboard in Resources */,
+				1516F3A81E259E0800C1BC16 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1516F3721E255EC700C1BC16 /* ViewController.swift in Sources */,
+				1516F3D71E2FDF1E00C1BC16 /* CustomSearchController.swift in Sources */,
+				1516F3821E25639500C1BC16 /* VerizonIamgeListViewController.swift in Sources */,
 				1516F3701E255EC700C1BC16 /* AppDelegate.swift in Sources */,
+				1516F3D51E2FDCB700C1BC16 /* CustomSearchBar.swift in Sources */,
+				1516F3891E25701600C1BC16 /* CustomCell.swift in Sources */,
+				1516F3841E2563C100C1BC16 /* DetailImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +231,7 @@
 				1516F3741E255EC700C1BC16 /* Base */,
 			);
 			name = Main.storyboard;
+			path = VerizonImageDownLoader;
 			sourceTree = "<group>";
 		};
 		1516F3781E255EC700C1BC16 /* LaunchScreen.storyboard */ = {
@@ -158,6 +240,7 @@
 				1516F3791E255EC700C1BC16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = VerizonImageDownLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,6 +343,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9U6H978FU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VerizonImageDownLoader/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VerizonImageDownLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Verizon.VerizonImageDownLoader;
@@ -272,6 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9U6H978FU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VerizonImageDownLoader/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VerizonImageDownLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Verizon.VerizonImageDownLoader;
@@ -299,6 +392,7 @@
 				1516F3801E255EC700C1BC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

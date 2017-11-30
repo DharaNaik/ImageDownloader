@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  VerizonImageDownLoader
 //
-//  Created by Vibhu Kikani on 1/10/17.
+//  Created by Dhara Naik on 1/10/17.
 //  Copyright © 2017 Verizon. All rights reserved.
 //
 
